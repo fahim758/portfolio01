@@ -885,11 +885,24 @@ body.light-mode .hero-card { background: rgba(255,255,255,0.9); }
   transition: 0.3s;
 }
 
-.download-btn:hover {
+a.download-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding: 12px 25px !important;
+  border-radius: 30px !important;
+  background: linear-gradient(135deg, #00d4ff, #007cf0) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  transition: 0.3s !important;
+}
+
+a.download-btn:hover {
   transform: translateY(-3px);
 }
 
-.download-btn:hover i {
+a.download-btn:hover i {
   animation: bounce 0.6s infinite;
 }
 
