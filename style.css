@@ -925,13 +925,13 @@ onmouseout="this.children[0].style.transform='translateY(0)'"
   animation: bounce 1s infinite;
 }
 .download-btn i {
-  display: inline-block;
-  animation: bounce 1s infinite;
+  display: inline-block !important;
+  animation: bounce 1s infinite !important;
 }
 
-/* animation */
 @keyframes bounce {
   0% { transform: translateY(0); }
   50% { transform: translateY(6px); }
   100% { transform: translateY(0); }
 }
+
