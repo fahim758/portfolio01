@@ -507,16 +507,50 @@ footer{background:var(--bg2);border-top:1px solid var(--bd);padding:60px 0 0}
         </div>
         <div class="avb"><span class="avd"></span>Currently available for new projects</div>
       </div>
-      <form class="cf" id="cf" data-a data-d="1" novalidate>
-        <div class="fr">
-          <div class="fg"><label for="nm">Your Name *</label><input type="text" id="nm" placeholder="John Smith" required/><span class="fe" id="ne"></span></div>
-          <div class="fg"><label for="em">Email Address *</label><input type="email" id="em" placeholder="john@company.com" required/><span class="fe" id="ee"></span></div>
-        </div>
-        <div class="fg"><label for="su">Subject *</label><input type="text" id="su" placeholder="SEO Audit for my website" required/><span class="fe" id="se"></span></div>
-        <div class="fg"><label for="ms">Your Message *</label><textarea id="ms" rows="5" placeholder="Tell me about your project, goals, and timeline..." required></textarea><span class="fe" id="me"></span></div>
-        <button type="submit" class="bsub"><span id="sbt">Send Message</span><i class="fas fa-paper-plane"></i></button>
-        <div class="fok" id="fok"><i class="fas fa-check-circle"></i>Message sent! I'll reply within 24 hours.</div>
-      </form>
+    <form class="cf" id="cf" action="https://formspree.io/f/mpqoqjwa" method="POST">
+
+  <div class="fr">
+
+    <div class="fg">
+      <label for="nm">Your Name *</label>
+      <input type="text" id="nm" name="name" placeholder="John Smith" required/>
+      <span class="fe" id="ne"></span>
+    </div>
+
+    <div class="fg">
+      <label for="em">Email Address *</label>
+      <input type="email" id="em" name="email" placeholder="john@company.com" required/>
+      <span class="fe" id="ee"></span>
+    </div>
+
+  </div>
+
+  <div class="fg">
+    <label for="su">Subject *</label>
+    <input type="text" id="su" name="subject" placeholder="SEO Audit for my website" required/>
+    <span class="fe" id="se"></span>
+  </div>
+
+  <div class="fg">
+    <label for="ms">Your Message *</label>
+    <textarea id="ms" name="message" rows="5" placeholder="Tell me about your project, goals, and timeline..." required></textarea>
+    <span class="fe" id="me"></span>
+  </div>
+
+  <!-- Optional: Email subject -->
+  <input type="hidden" name="_subject" value="New Message from Portfolio">
+
+  <button type="submit" class="bsub">
+    <span id="sbt">Send Message</span>
+    <i class="fas fa-paper-plane"></i>
+  </button>
+
+  <div class="fok" id="fok">
+    <i class="fas fa-check-circle"></i>
+    Message sent! I'll reply within 24 hours.
+  </div>
+
+</form>
     </div>
   </div>
 </section>
