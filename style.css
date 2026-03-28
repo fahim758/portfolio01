@@ -921,3 +921,6 @@ onmouseout="this.children[0].style.transform='translateY(0)'"
   70% { transform: translateY(4px); }
   100% { transform: translateY(0); }
 }
+.download-btn i {
+  animation: bounce 1s infinite;
+}
