@@ -873,26 +873,22 @@ body.light-mode .hero-card { background: rgba(255,255,255,0.9); }
 }
 
 .download-btn {
-  display: inline-flex !important;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 12px 25px;
   border-radius: 30px;
   background: linear-gradient(135deg, #00d4ff, #007cf0);
-  color: #fff !important;
+  color: #fff;
   text-decoration: none;
   font-weight: 600;
-  box-shadow: 0 0 15px rgba(0, 212, 255, 0.4);
   transition: 0.3s;
 }
 
-/* hover */
 .download-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 0 25px rgba(0, 212, 255, 0.7);
 }
 
-/* animation */
 .download-btn:hover i {
   animation: bounce 0.6s infinite;
 }
