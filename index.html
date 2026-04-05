@@ -68,6 +68,15 @@ body.light nav.sc{background:rgba(248,250,255,.93)}
 .hbg.on span:nth-child(2){opacity:0}
 .hbg.on span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 
+/* ===== LOGO ===== */
+.nav-logo{display:flex;align-items:center;gap:12px;margin-right:auto;text-decoration:none;flex-shrink:0}
+.logo-icon-box{width:46px;height:46px;border-radius:12px;background:linear-gradient(135deg,#00d4ff 0%,#007cf0 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 0 18px rgba(0,212,255,.45),0 4px 12px rgba(0,0,0,.4);flex-shrink:0;position:relative;overflow:hidden}
+.logo-icon-box::before{content:'';position:absolute;top:-40%;left:-40%;width:80%;height:80%;background:rgba(255,255,255,.15);border-radius:50%;pointer-events:none}
+.logo-icon-box span{font-family:var(--ff);font-size:.95rem;font-weight:800;color:#000;letter-spacing:-.5px;line-height:1;position:relative;z-index:1}
+.logo-text-group{display:flex;flex-direction:column;gap:2px;line-height:1}
+.logo-name{font-family:var(--ff);font-size:1.2rem;font-weight:800;color:var(--t1);letter-spacing:.1em;line-height:1;display:block}
+.logo-role{font-family:var(--fb);font-size:.62rem;font-weight:500;color:var(--t3);letter-spacing:.2em;text-transform:uppercase;line-height:1;display:block}
+
 /* HERO */
 #home{min-height:100vh;display:flex;align-items:center;padding:var(--nh) 0 0;position:relative;overflow:hidden;background:var(--bg)}
 .hgrid{position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,black 30%,transparent 80%)}
@@ -508,7 +517,7 @@ font-weight:600;
     <div class="cg">
       <div class="ci" data-a>
         <div class="cii"><div class="cion"><i class="fas fa-map-marker-alt"></i></div><div><strong>Location</strong><span>Khulna, Bangladesh</span></div></div>
-        <div class="cii"><div class="cion"><i class="fas fa-envelope"></i></div><div><strong>Email</strong><span>ffahimislam4039@gmail.com</span></div></div>
+        <div class="cii"><div class="cion"><i class="fas fa-envelope"></i></div><div><strong>Email</strong><span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e98f8f88818084809a858884ddd9dad0a98e84888085c78a8684">[email&#160;protected]</a></span></div></div>
         <div class="cii"><div class="cion"><i class="fas fa-clock"></i></div><div><strong>Response Time</strong><span>Within 24 hours</span></div></div>
         <div class="sl2">
          <a href="https://www.facebook.com/fahim.islam4.07/" target="_blank" rel="noopener noreferrer" class="sli">
@@ -615,7 +624,7 @@ font-weight:600;
   </div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 'use strict';
 // THEME
 const tt=document.getElementById('tt'),ti=document.getElementById('ti'),body=document.body;
@@ -727,14 +736,4 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/69ccf4e106df4f1c3140f9c1/1jl49p4mv';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-</body>
-</html>
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]
