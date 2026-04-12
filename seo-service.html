@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Professional SEO Services by Fahim Islam | Rank #1 on Google</title>
+<meta name="description" content="Fahim Islam is a professional SEO Expert & Content Writer helping businesses rank higher on Google, drive organic traffic, and grow revenue.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+:root{
+  --bg:#06090f;--bg2:#0a0e18;--card:#0f1522;--card2:#131a28;
+  --ac:#00d4ff;--ac2:#0ea5e9;--ac3:#06b6d4;
+  --green:#22c55e;--yellow:#f59e0b;--red:#f87171;
+  --glow:rgba(0,212,255,.12);--glow2:rgba(0,212,255,.25);--glow3:rgba(0,212,255,.06);
+  --t1:#f0f6ff;--t2:#8fa3bc;--t3:#4d6070;
+  --bd:rgba(255,255,255,.07);--bda:rgba(0,212,255,.18);--bda2:rgba(0,212,255,.35);
+  --sh:0 4px 28px rgba(0,0,0,.5);--sg:0 0 50px rgba(0,212,255,.1);
+  --r:18px;--r2:10px;--ff:'Outfit',sans-serif;--fb:'Inter',sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fb);background:var(--bg);color:var(--t1);line-height:1.7;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+ul{list-style:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* SCROLL PROGRESS */
+#spb{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--ac),var(--ac2));z-index:9999;box-shadow:0 0 10px var(--ac);transition:width .1s}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:100;background:rgba(6,9,15,.92);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd);padding:0 24px}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px}
+.nav-logo{display:flex;align-items:center;gap:10px;font-family:var(--ff);font-weight:700;font-size:1.2rem;letter-spacing:0}
+.logo-icon{width:36px;height:36px;border-radius:9px;background:linear-gradient(135deg,var(--ac),var(--ac2));display:flex;align-items:center;justify-content:center;font-size:.78rem;font-weight:800;color:#000;letter-spacing:.5px}
+.logo-sub{font-size:.7rem;color:var(--t3);font-weight:400;display:block;letter-spacing:.05em}
+.nav-links{display:flex;gap:4px}
+.nav-links a{font-size:.85rem;font-weight:500;padding:7px 13px;border-radius:8px;color:var(--t2);transition:all .25s}
+.nav-links a:hover{color:var(--t1);background:var(--glow3)}
+.nav-cta{padding:9px 22px;border-radius:50px;background:var(--ac);color:#000;font-weight:700;font-size:.85rem;transition:all .25s;white-space:nowrap}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px var(--glow2)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
+.hamburger span{width:22px;height:2px;background:var(--t1);border-radius:2px;transition:.3s}
+
+/* ── HERO ── */
+.hero{position:relative;overflow:hidden;padding:100px 24px 80px;background:var(--bg)}
+.hero-grid-bg{position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse 70% 60% at 55% 40%,black 20%,transparent 75%);opacity:.6}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}
+.o1{width:600px;height:600px;background:radial-gradient(circle,rgba(0,212,255,.07) 0%,transparent 70%);top:-150px;right:-100px}
+.o2{width:450px;height:450px;background:radial-gradient(circle,rgba(99,102,241,.06) 0%,transparent 70%);bottom:-100px;left:-100px}
+.hero-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr 420px;gap:64px;align-items:center;position:relative;z-index:1}
+
+.badge{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:50px;background:rgba(0,212,255,.08);border:1px solid var(--bda);font-size:.75rem;color:var(--ac);margin-bottom:20px;font-weight:500;letter-spacing:.03em}
+.badge-dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:blink 1.5s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hero h1{font-family:var(--ff);font-size:clamp(2.2rem,4.5vw,4rem);font-weight:800;line-height:1.15;letter-spacing:0;margin-bottom:10px}
+.hero h1 .ac{color:var(--ac)}
+.hero h1 .yw{color:var(--yellow)}
+.hero-sub-role{font-size:1rem;color:var(--t2);margin-bottom:20px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.role-chip{background:var(--glow);border:1px solid var(--bda);color:var(--ac);border-radius:50px;padding:3px 12px;font-size:.8rem;font-weight:600}
+.hero-desc{font-size:.97rem;color:var(--t2);max-width:500px;margin-bottom:32px;line-height:1.8}
+.hero-desc strong{color:var(--t1)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px}
+.btn-primary{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:50px;background:var(--ac);color:#000;font-weight:700;font-size:.92rem;transition:all .25s;border:none;cursor:pointer}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 32px var(--glow2)}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:50px;border:1px solid var(--bda);color:var(--t1);font-weight:600;font-size:.92rem;background:var(--glow3);transition:all .25s}
+.btn-ghost:hover{background:var(--glow);border-color:var(--ac);transform:translateY(-3px)}
+.hero-stats{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.stat .num{font-family:var(--ff);font-size:1.9rem;font-weight:700;color:var(--t1);line-height:1;letter-spacing:0}
+.stat .num span{color:var(--ac)}
+.stat .lbl{font-size:.7rem;color:var(--t3);text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
+.stat-div{width:1px;height:36px;background:var(--bd)}
+
+/* HERO VISUAL */
+.hero-visual{position:relative}
+.mockup-card{background:var(--card);border:1px solid var(--bda);border-radius:20px;padding:22px;animation:float 5s ease-in-out infinite;box-shadow:var(--sg)}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.mock-bar{display:flex;gap:6px;margin-bottom:14px}
+.mock-bar span{width:10px;height:10px;border-radius:50%}
+.mock-bar span:nth-child(1){background:#ff5f57}
+.mock-bar span:nth-child(2){background:#febc2e}
+.mock-bar span:nth-child(3){background:#28c840}
+.mock-label{font-size:.7rem;color:var(--t3);margin-bottom:8px;text-transform:uppercase;letter-spacing:.08em}
+.chart-bars{display:flex;align-items:flex-end;gap:7px;height:100px;margin-bottom:8px}
+.bar{border-radius:4px 4px 0 0;flex:1;background:rgba(0,212,255,.25);min-width:16px}
+.bar:nth-child(1){height:25%}
+.bar:nth-child(2){height:42%}
+.bar:nth-child(3){height:35%}
+.bar:nth-child(4){height:58%}
+.bar:nth-child(5){height:50%}
+.bar:nth-child(6){height:76%;background:rgba(255,255,255,.5)}
+.bar:nth-child(7){height:95%;background:var(--ac)}
+.mock-foot{font-size:.68rem;color:var(--t3);text-align:center}
+.rank-pills{display:flex;flex-direction:column;gap:7px;margin-top:12px}
+.rank-pill{display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.04);border:1px solid var(--bd);border-radius:8px;padding:8px 12px}
+.rank-pill .kw{font-size:.75rem;color:var(--t2);flex:1}
+.rank-pill .pos{font-size:.76rem;font-weight:700;color:var(--yellow);white-space:nowrap}
+.rank-pill .arr{font-size:.7rem;color:var(--green)}
+.float-badge{position:absolute;bottom:-14px;right:-12px;background:var(--card2);border:1px solid var(--bda);border-radius:14px;padding:12px 16px;box-shadow:var(--sh);display:flex;align-items:center;gap:10px;animation:float2 4s ease-in-out infinite}
+@keyframes float2{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.fb-icon{width:34px;height:34px;background:linear-gradient(135deg,var(--ac),var(--ac2));border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;color:#000}
+.fb-text strong{display:block;font-size:.85rem;font-weight:700;color:var(--t1)}
+.fb-text span{font-size:.68rem;color:var(--t3)}
+
+/* ── SHARED SECTION ── */
+.sec{padding:90px 0}
+.sec-alt{background:var(--bg2)}
+.sh{text-align:center;margin-bottom:64px}
+.eyebrow{display:inline-block;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.18em;color:var(--ac);margin-bottom:12px;padding:5px 15px;border-radius:50px;background:var(--glow);border:1px solid var(--bda)}
+.sh h2{font-family:var(--ff);font-size:clamp(1.6rem,3vw,2.5rem);font-weight:700;letter-spacing:0;line-height:1.25;margin-bottom:14px}
+.sh h2 span{color:var(--ac)}
+.sh p{color:var(--t2);max-width:520px;margin:0 auto;font-size:.95rem;line-height:1.75}
+
+/* ── WHY ME / PROBLEM ── */
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;margin-bottom:56px}
+.why-left h3{font-family:var(--ff);font-size:clamp(1.4rem,2.2vw,1.9rem);font-weight:700;margin-bottom:16px;line-height:1.3;letter-spacing:0}
+.why-left p{color:var(--t2);font-size:.93rem;line-height:1.8;margin-bottom:12px}
+.why-left p strong{color:var(--t1)}
+.pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pain-card{background:var(--card);border-radius:14px;padding:24px;border-left:3px solid var(--red);transition:all .3s}
+.pain-card:hover{transform:translateY(-4px);box-shadow:var(--sh)}
+.pain-icon{font-size:1.4rem;margin-bottom:10px}
+.pain-card h4{font-size:.9rem;font-weight:700;margin-bottom:8px}
+.pain-card p{font-size:.8rem;color:var(--t2);line-height:1.65}
+
+/* ── SERVICES ── */
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.svc-card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:32px 26px;position:relative;overflow:hidden;transition:all .3s}
+.svc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--ac),transparent);transform:scaleX(0);transform-origin:left;transition:transform .4s}
+.svc-card:hover{background:var(--card2);border-color:var(--bda);transform:translateY(-6px);box-shadow:var(--sg)}
+.svc-card:hover::before{transform:scaleX(1)}
+.svc-icon{width:50px;height:50px;border-radius:13px;background:var(--glow);border:1px solid var(--bda);display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:var(--ac);margin-bottom:18px;transition:all .3s}
+.svc-card:hover .svc-icon{background:var(--ac);color:#000}
+.svc-card h3{font-family:var(--ff);font-size:1rem;font-weight:700;margin-bottom:10px}
+.svc-card p{color:var(--t2);font-size:.85rem;line-height:1.7}
+.svc-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.svc-tag{font-size:.68rem;padding:3px 10px;border-radius:50px;background:var(--bg);border:1px solid var(--bd);color:var(--t3)}
+
+/* ── PROCESS ── */
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative}
+.process-steps::before{content:'';position:absolute;top:28px;left:10%;right:10%;height:1px;background:linear-gradient(90deg,transparent,var(--bda),var(--bda),transparent)}
+.step{text-align:center;padding:20px 16px;position:relative}
+.step-num{width:56px;height:56px;border-radius:50%;background:var(--card);border:2px solid var(--bda);display:flex;align-items:center;justify-content:center;font-family:var(--ff);font-size:1rem;font-weight:700;color:var(--ac);margin:0 auto 18px;position:relative;z-index:1;transition:all .3s;letter-spacing:0}
+.step:hover .step-num{background:var(--ac);color:#000;border-color:var(--ac);box-shadow:0 0 30px var(--glow2)}
+.step h4{font-size:.9rem;font-weight:700;margin-bottom:8px;font-family:var(--ff)}
+.step p{font-size:.8rem;color:var(--t2);line-height:1.6}
+
+/* ── RESULTS / PORTFOLIO ── */
+.results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.result-card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);overflow:hidden;transition:all .3s}
+.result-card:hover{transform:translateY(-6px);box-shadow:var(--sg);border-color:var(--bda)}
+.rc-img{height:180px;overflow:hidden;position:relative}
+.rc-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.result-card:hover .rc-img img{transform:scale(1.07)}
+.rc-category{position:absolute;top:12px;left:12px;font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:4px 11px;border-radius:50px;background:rgba(0,0,0,.75);backdrop-filter:blur(8px);color:var(--ac);border:1px solid var(--bda)}
+.rc-body{padding:22px}
+.rc-body h3{font-family:var(--ff);font-size:.95rem;font-weight:700;margin-bottom:8px}
+.rc-body p{color:var(--t2);font-size:.82rem;margin-bottom:12px}
+.rc-result{font-size:.82rem;color:var(--green);font-weight:600;display:flex;align-items:center;gap:5px}
+
+/* ── TESTIMONIALS ── */
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.test-card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:28px;position:relative;transition:all .3s}
+.test-card::before{content:'"';position:absolute;top:14px;right:20px;font-size:3.5rem;color:var(--ac);opacity:.09;font-family:Georgia,serif;line-height:1}
+.test-card.featured{border-color:var(--bda);background:linear-gradient(135deg,var(--card),rgba(0,212,255,.04));box-shadow:var(--sg)}
+.test-card:hover{transform:translateY(-5px);border-color:var(--bda)}
+.stars{color:#fbbf24;font-size:.9rem;margin-bottom:12px;letter-spacing:2px}
+.test-card p{color:var(--t2);font-size:.84rem;line-height:1.8;margin-bottom:20px;font-style:italic}
+.test-author{display:flex;align-items:center;gap:12px}
+.test-author img{width:42px;height:42px;border-radius:50%;border:2px solid var(--bda);object-fit:cover}
+.test-author strong{display:block;font-size:.84rem;font-weight:700}
+.test-author span{font-size:.7rem;color:var(--t3)}
+
+/* ── PRICING ── */
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;align-items:start}
+.plan{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:34px 28px;transition:all .3s;position:relative}
+.plan.popular{border-color:var(--bda2);background:linear-gradient(180deg,rgba(0,212,255,.06),var(--card));box-shadow:var(--sg)}
+.popular-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--ac);color:#000;font-size:.7rem;font-weight:800;padding:4px 16px;border-radius:50px;white-space:nowrap;text-transform:uppercase;letter-spacing:.05em}
+.plan:hover{transform:translateY(-5px)}
+.plan-name{font-family:var(--ff);font-size:1rem;font-weight:700;margin-bottom:8px}
+.plan-price{margin-bottom:6px}
+.plan-price .amount{font-family:var(--ff);font-size:2.2rem;font-weight:800;color:var(--ac)}
+.plan-price .period{font-size:.8rem;color:var(--t3)}
+.plan-desc{font-size:.8rem;color:var(--t3);margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid var(--bd)}
+.plan-features{display:flex;flex-direction:column;gap:11px;margin-bottom:28px}
+.pf{display:flex;align-items:flex-start;gap:9px;font-size:.83rem;color:var(--t2)}
+.pf i{color:var(--green);font-size:.75rem;margin-top:4px;flex-shrink:0}
+.pf.no{color:var(--t3)}
+.pf.no i{color:var(--t3)}
+.plan-btn{display:block;text-align:center;padding:12px 20px;border-radius:50px;font-weight:700;font-size:.88rem;transition:all .25s;border:1.5px solid var(--bda);color:var(--t1);background:transparent}
+.plan-btn:hover,.plan.popular .plan-btn{background:var(--ac);color:#000;border-color:var(--ac)}
+
+/* ── FAQ ── */
+.faq-list{display:flex;flex-direction:column;gap:14px;max-width:780px;margin:0 auto}
+.faq-item{background:var(--card);border:1px solid var(--bd);border-radius:var(--r2);overflow:hidden;transition:border-color .25s}
+.faq-item.open{border-color:var(--bda)}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;padding:18px 22px;font-size:.93rem;font-weight:600;color:var(--t1);cursor:pointer;background:none;border:none;font-family:var(--fb);text-align:left;gap:12px}
+.faq-icon{width:26px;height:26px;border-radius:50%;background:var(--glow);border:1px solid var(--bda);display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--ac);transition:transform .25s;flex-shrink:0}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .3s;font-size:.87rem;color:var(--t2);padding:0 22px;line-height:1.8}
+.faq-item.open .faq-a{max-height:300px;padding:0 22px 18px}
+
+/* ── TOOLS ── */
+.tools-grid{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:16px}
+.tool-chip{display:flex;align-items:center;gap:7px;padding:9px 18px;border-radius:50px;background:var(--card);border:1px solid var(--bd);font-size:.83rem;color:var(--t2);transition:all .3s}
+.tool-chip:hover{border-color:var(--bda);color:var(--ac)}
+.tool-chip i{color:var(--ac);font-size:.8rem}
+
+/* ── FINAL CTA ── */
+.final-cta{background:linear-gradient(135deg,#070b14 0%,#0a1525 50%,#070b14 100%);padding:90px 24px;text-align:center;position:relative;overflow:hidden}
+.final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 50% 50%,rgba(0,212,255,.06) 0%,transparent 70%)}
+.final-cta h2{font-family:var(--ff);font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:700;letter-spacing:0;margin-bottom:18px;position:relative;z-index:1}
+.final-cta h2 span{color:var(--ac)}
+.final-cta p{color:var(--t2);max-width:520px;margin:0 auto 36px;font-size:.97rem;line-height:1.75;position:relative;z-index:1}
+.cta-buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:36px;position:relative;z-index:1}
+.cta-trust{display:flex;gap:28px;justify-content:center;flex-wrap:wrap;position:relative;z-index:1}
+.cta-trust-item{display:flex;align-items:center;gap:7px;font-size:.82rem;color:rgba(255,255,255,.55)}
+.cta-trust-item i{color:var(--green);font-size:.75rem}
+
+/* ── FOOTER ── */
+footer{background:var(--bg2);border-top:1px solid var(--bd);padding:56px 0 0}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:44px;margin-bottom:44px}
+.footer-brand p{color:var(--t3);font-size:.84rem;margin:12px 0 20px;line-height:1.7}
+.footer-col h4{font-family:var(--ff);font-size:.9rem;font-weight:700;margin-bottom:16px;color:var(--t1)}
+.footer-col ul{display:flex;flex-direction:column;gap:8px}
+.footer-col a{color:var(--t3);font-size:.83rem;transition:all .25s}
+.footer-col a:hover{color:var(--ac);padding-left:4px}
+.footer-social{display:flex;gap:9px;margin-top:4px}
+.social-link{width:38px;height:38px;border-radius:50%;background:var(--card);border:1px solid var(--bd);display:flex;align-items:center;justify-content:center;font-size:.8rem;color:var(--t2);transition:all .25s}
+.social-link:hover{background:var(--ac);color:#000;border-color:var(--ac);transform:translateY(-3px)}
+.footer-bottom{border-top:1px solid var(--bd);padding:20px 0;display:flex;justify-content:space-between;align-items:center;font-size:.78rem;color:var(--t3)}
+.footer-logo{font-family:var(--ff);font-size:1.3rem;font-weight:800;margin-bottom:4px;letter-spacing:0}
+.footer-logo span{color:var(--ac)}
+
+/* WhatsApp */
+.wa-btn{position:fixed;bottom:24px;right:24px;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(37,211,102,.4);z-index:999;transition:all .3s}
+.wa-btn:hover{transform:scale(1.1);box-shadow:0 10px 32px rgba(37,211,102,.55)}
+
+/* AOS */
+[data-a]{opacity:0;transform:translateY(24px);transition:opacity .65s ease,transform .65s ease}
+[data-a].in{opacity:1;transform:translateY(0)}
+[data-d="1"]{transition-delay:.1s}
+[data-d="2"]{transition-delay:.2s}
+[data-d="3"]{transition-delay:.3s}
+
+/* RESPONSIVE */
+@media(max-width:1024px){
+  .services-grid,.results-grid,.test-grid,.pricing-grid,.footer-grid{grid-template-columns:repeat(2,1fr)}
+  .process-steps{grid-template-columns:repeat(2,1fr)}
+  .process-steps::before{display:none}
+}
+@media(max-width:900px){
+  .hero-inner{grid-template-columns:1fr;text-align:center;gap:44px}
+  .hero-visual{order:-1}
+  .hero-desc{margin:0 auto 28px}
+  .hero-actions,.hero-stats{justify-content:center}
+  .why-grid{grid-template-columns:1fr;gap:36px}
+  .pain-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .nav-links{position:fixed;top:68px;left:0;right:0;background:var(--bg2);border-bottom:1px solid var(--bd);flex-direction:column;padding:16px;transform:translateY(-100%);opacity:0;transition:all .3s;pointer-events:none}
+  .nav-links.open{transform:translateY(0);opacity:1;pointer-events:all}
+  .hamburger{display:flex}
+  .nav-cta{display:none}
+  .services-grid,.results-grid,.test-grid,.pricing-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .pain-grid{grid-template-columns:1fr}
+}
+@media(max-width:480px){
+  .hero-stats{gap:14px}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;gap:6px;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<div id="spb"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon">FI</div>
+      <div>
+        <span>Fahim<span style="color:var(--ac)">.</span></span>
+        <span class="logo-sub">SEO Expert</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" style="color:var(--ac);font-weight:600"><i class="fas fa-arrow-left" style="font-size:.7rem"></i> Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#results">Results</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:10px">
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="orb o1"></div>
+  <div class="orb o2"></div>
+  <div class="hero-inner">
+    <div data-a>
+      <div class="badge"><span class="badge-dot"></span> Available for new projects</div>
+      <h1>Turn Google Into Your <span class="yw">#1</span> <span class="ac">Revenue Channel</span></h1>
+      <div class="hero-sub-role">
+        <span>I'm </span><span class="role-chip">Fahim Islam</span><span style="color:var(--t2)"> — SEO Expert &amp; Content Writer</span>
+      </div>
+      <p class="hero-desc">
+        I help businesses <strong>dominate Google search results</strong> with data-driven SEO strategies, technical optimization, and compelling content — turning organic traffic into sustainable revenue.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary"><i class="fas fa-rocket"></i> Start Ranking Today</a>
+        <a href="#results" class="btn-ghost"><i class="fas fa-chart-line"></i> See Real Results</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="num">150<span>+</span></div><div class="lbl">Projects Done</div></div>
+        <div class="stat-div"></div>
+        <div class="stat"><div class="num">80<span>+</span></div><div class="lbl">Happy Clients</div></div>
+        <div class="stat-div"></div>
+        <div class="stat"><div class="num">4<span>+</span></div><div class="lbl">Years Exp.</div></div>
+        <div class="stat-div"></div>
+        <div class="stat"><div class="num">5<span>★</span></div><div class="lbl">Avg. Rating</div></div>
+      </div>
+    </div>
+    <div class="hero-visual" data-a data-d="1">
+      <div class="mockup-card">
+        <div class="mock-bar"><span></span><span></span><span></span></div>
+        <div class="mock-label">Organic Traffic Growth</div>
+        <div class="chart-bars">
+          <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+          <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="mock-foot">+420% traffic increase — typical client result</div>
+        <div class="rank-pills">
+          <div class="rank-pill"><span class="kw">best seo services bangladesh</span><span class="pos">#1</span><span class="arr">↑ 18</span></div>
+          <div class="rank-pill"><span class="kw">seo expert khulna</span><span class="pos">#1</span><span class="arr">↑ 24</span></div>
+          <div class="rank-pill"><span class="kw">content writer for seo</span><span class="pos">#3</span><span class="arr">↑ 11</span></div>
+        </div>
+      </div>
+      <div class="float-badge">
+        <div class="fb-icon"><i class="fas fa-trophy"></i></div>
+        <div class="fb-text">
+          <strong>Page 1 Rankings</strong>
+          <span>47 keywords · 90 days</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY SEO -->
+<section class="sec">
+  <div class="wrap">
+    <div class="why-grid" data-a>
+      <div class="why-left">
+        <div class="eyebrow">The Problem</div>
+        <h3>Your competitors are getting <span style="color:var(--ac)">your customers</span> right now</h3>
+        <p>Over <strong>90% of online experiences begin with a search engine</strong>. If your business isn't on page 1 of Google, you're essentially invisible — and your competitors are capturing those leads every single day.</p>
+        <p>Most businesses spend thousands on ads that stop working the moment you pause them. <span style="color:var(--t1);font-weight:600">SEO delivers compounding returns</span> — traffic and leads that grow month after month, without paying per click.</p>
+      </div>
+      <div class="pain-grid">
+        <div class="pain-card" data-a>
+          <div class="pain-icon">😤</div>
+          <h4>Invisible on Google</h4>
+          <p>Stuck on page 3+ while competitors grab all the organic traffic and qualified leads.</p>
+        </div>
+        <div class="pain-card" data-a data-d="1">
+          <div class="pain-icon">💸</div>
+          <h4>Burning Ad Budget</h4>
+          <p>Paying for every click with no long-term asset being built. Traffic stops when budget stops.</p>
+        </div>
+        <div class="pain-card" data-a data-d="2">
+          <div class="pain-icon">📉</div>
+          <h4>Traffic Not Converting</h4>
+          <p>Getting some visitors but content doesn't match search intent — zero sales from organic.</p>
+        </div>
+        <div class="pain-card" data-a>
+          <div class="pain-icon">🔧</div>
+          <h4>Technical Issues Hidden</h4>
+          <p>Crawl errors, slow speed, broken links quietly sabotaging your rankings every day.</p>
+        </div>
+        <div class="pain-card" data-a data-d="1">
+          <div class="pain-icon">🤷</div>
+          <h4>No Clear Strategy</h4>
+          <p>Publishing content with no keyword research or topical authority plan — effort wasted.</p>
+        </div>
+        <div class="pain-card" data-a data-d="2">
+          <div class="pain-icon">⏰</div>
+          <h4>Slow Results</h4>
+          <p>Previous SEO agency promised results but delivered reports full of fluff, not rankings.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="sec sec-alt">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">What I Do</div>
+      <h2>Services That <span>Drive Real Results</span></h2>
+      <p>Comprehensive SEO &amp; content solutions built for sustainable growth, maximum ROI, and measurable outcomes.</p>
+    </div>
+    <div class="services-grid">
+      <div class="svc-card" data-a>
+        <div class="svc-icon"><i class="fas fa-search-plus"></i></div>
+        <h3>SEO Audit</h3>
+        <p>Deep technical analysis uncovering every hidden issue hurting your rankings — with a prioritized action plan to fix them fast.</p>
+        <div class="svc-tags"><span class="svc-tag">Technical Analysis</span><span class="svc-tag">Action Plan</span><span class="svc-tag">48hr Delivery</span></div>
+      </div>
+      <div class="svc-card" data-a data-d="1">
+        <div class="svc-icon"><i class="fas fa-key"></i></div>
+        <h3>Keyword Research</h3>
+        <p>Strategic discovery of high-intent, low-competition keywords your ideal customers are actively searching — mapped to buying stages.</p>
+        <div class="svc-tags"><span class="svc-tag">Competitor Gap</span><span class="svc-tag">Intent Mapping</span><span class="svc-tag">Opportunity List</span></div>
+      </div>
+      <div class="svc-card" data-a data-d="2">
+        <div class="svc-icon"><i class="fas fa-file-alt"></i></div>
+        <h3>On-Page SEO</h3>
+        <p>Optimizing titles, meta tags, headings, internal links, schema, and content structure for maximum search visibility and click-through rate.</p>
+        <div class="svc-tags"><span class="svc-tag">Meta Optimization</span><span class="svc-tag">Schema</span><span class="svc-tag">Internal Linking</span></div>
+      </div>
+      <div class="svc-card" data-a>
+        <div class="svc-icon"><i class="fas fa-code"></i></div>
+        <h3>Technical SEO</h3>
+        <p>Fixing crawlability, site speed, Core Web Vitals, mobile-first issues, and indexation problems blocking your ranking potential.</p>
+        <div class="svc-tags"><span class="svc-tag">Core Web Vitals</span><span class="svc-tag">Speed Optimization</span><span class="svc-tag">Crawl Fix</span></div>
+      </div>
+      <div class="svc-card" data-a data-d="1">
+        <div class="svc-icon"><i class="fas fa-pen-fancy"></i></div>
+        <h3>SEO Content Writing</h3>
+        <p>SEO-optimized, engaging long-form content that ranks in Google AND converts readers into paying customers — E-E-A-T focused.</p>
+        <div class="svc-tags"><span class="svc-tag">Long-form Articles</span><span class="svc-tag">E-E-A-T</span><span class="svc-tag">High Conversion</span></div>
+      </div>
+      <div class="svc-card" data-a data-d="2">
+        <div class="svc-icon"><i class="fas fa-blog"></i></div>
+        <h3>Blog Optimization</h3>
+        <p>Transforming your underperforming existing blog posts into traffic magnets through strategic content refreshes and repurposing.</p>
+        <div class="svc-tags"><span class="svc-tag">Content Refresh</span><span class="svc-tag">Traffic Recovery</span><span class="svc-tag">Repurposing</span></div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px">
+      <div class="eyebrow" style="margin-bottom:20px">Tools I Use</div>
+      <div class="tools-grid">
+        <div class="tool-chip"><i class="fab fa-google"></i> Google Search Console</div>
+        <div class="tool-chip"><i class="fas fa-chart-bar"></i> Ahrefs</div>
+        <div class="tool-chip"><i class="fas fa-search"></i> SEMrush</div>
+        <div class="tool-chip"><i class="fas fa-frog"></i> Screaming Frog</div>
+        <div class="tool-chip"><i class="fas fa-wave-square"></i> Surfer SEO</div>
+        <div class="tool-chip"><i class="fab fa-google"></i> Google Analytics 4</div>
+        <div class="tool-chip"><i class="fas fa-sitemap"></i> Rank Math / Yoast</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="sec">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">How It Works</div>
+      <h2>My Proven <span>4-Step Process</span></h2>
+      <p>A clear, transparent workflow from audit to ranking — so you always know exactly what's happening and why.</p>
+    </div>
+    <div class="process-steps">
+      <div class="step" data-a>
+        <div class="step-num">01</div>
+        <h4>Discovery & Audit</h4>
+        <p>Deep dive into your website, competitors, and market. I identify every technical issue, content gap, and keyword opportunity.</p>
+      </div>
+      <div class="step" data-a data-d="1">
+        <div class="step-num">02</div>
+        <h4>Strategy & Planning</h4>
+        <p>Build a custom roadmap with prioritized actions, keyword targets, content plan, and projected traffic timelines.</p>
+      </div>
+      <div class="step" data-a data-d="2">
+        <div class="step-num">03</div>
+        <h4>Execute & Optimize</h4>
+        <p>Implement technical fixes, publish optimized content, and build authority through white-hat link building.</p>
+      </div>
+      <div class="step" data-a data-d="3">
+        <div class="step-num">04</div>
+        <h4>Report & Scale</h4>
+        <p>Monthly transparent reports on rankings, traffic, and ROI. Continuously refine strategy for compounding growth.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS / PORTFOLIO -->
+<section id="results" class="sec sec-alt">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">Proven Results</div>
+      <h2>Real Businesses, <span>Real Growth</span></h2>
+      <p>A snapshot of what I've achieved for clients across different industries and markets.</p>
+    </div>
+    <div class="results-grid">
+      <div class="result-card" data-a>
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="E-commerce SEO case study"><div class="rc-category">E-Commerce SEO</div></div>
+        <div class="rc-body">
+          <h3>Fashion Store — 420% Traffic Growth</h3>
+          <p>Full SEO overhaul for a UK-based fashion retailer — technical fixes, content hubs, and product page optimization.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> 3K → 15,600 organic visits/month</div>
+        </div>
+      </div>
+      <div class="result-card" data-a data-d="1">
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="SaaS SEO strategy"><div class="rc-category">SaaS SEO</div></div>
+        <div class="rc-body">
+          <h3>Tech Startup — Page 1 Rankings</h3>
+          <p>Complete content strategy and technical SEO roadmap for a B2B SaaS company targeting decision-makers.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> 47 keywords on Page 1 in 90 days</div>
+        </div>
+      </div>
+      <div class="result-card" data-a data-d="2">
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80" alt="Local SEO healthcare"><div class="rc-category">Local SEO</div></div>
+        <div class="rc-body">
+          <h3>Healthcare Clinic — Local Domination</h3>
+          <p>GMB optimization, citation building, and review management for a multi-location clinic.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> 280% increase in local visibility</div>
+        </div>
+      </div>
+      <div class="result-card" data-a>
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80" alt="Content strategy blog"><div class="rc-category">Content Strategy</div></div>
+        <div class="rc-body">
+          <h3>Lifestyle Blog — Authority Building</h3>
+          <p>60+ long-form SEO articles targeting high-intent keywords in wellness and fitness niche.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> Domain Authority: 12 → 38</div>
+        </div>
+      </div>
+      <div class="result-card" data-a data-d="1">
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80" alt="Travel blog content refresh"><div class="rc-category">Blog Optimization</div></div>
+        <div class="rc-body">
+          <h3>Travel Blog — Content Refresh</h3>
+          <p>Refreshed 80+ outdated travel articles improving E-E-A-T, search intent match, and internal linking.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> 190% increase in impressions</div>
+        </div>
+      </div>
+      <div class="result-card" data-a data-d="2">
+        <div class="rc-img"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Technical SEO enterprise"><div class="rc-category">Technical SEO</div></div>
+        <div class="rc-body">
+          <h3>Enterprise Site — Core Web Vitals Fix</h3>
+          <p>Resolved crawl errors, improved page speed, and added structured data for 10,000+ pages.</p>
+          <div class="rc-result"><i class="fas fa-chart-line"></i> Performance score: 42 → 94</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="reviews" class="sec">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">Client Reviews</div>
+      <h2>What Clients <span>Say About Me</span></h2>
+    </div>
+    <div class="test-grid">
+      <div class="test-card" data-a>
+        <div class="stars">★★★★★</div>
+        <p>"Fahim completely transformed our website's organic traffic. Within 4 months, we went from page 3 to ranking #1 for our main keyword. Incredible work and communication throughout."</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=60&q=80" alt="James Carter">
+          <div><strong>James Carter</strong><span>CEO, CartX Agency — UK</span></div>
+        </div>
+      </div>
+      <div class="test-card featured" data-a data-d="1">
+        <div class="stars">★★★★★</div>
+        <p>"Best SEO investment we've ever made. Fahim's keyword strategy brought 3x more qualified leads in 3 months. His content ranks fast and converts. Will absolutely hire again!"</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=60&q=80" alt="Sarah Mitchell">
+          <div><strong>Sarah Mitchell</strong><span>Founder, NutriBloom — USA</span></div>
+        </div>
+      </div>
+      <div class="test-card" data-a data-d="2">
+        <div class="stars">★★★★★</div>
+        <p>"Fahim is not just an SEO expert — he's a strategic partner. His audit uncovered issues our team missed for years. Clear reports, fast delivery, and measurable results every time."</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=60&q=80" alt="Ahmed Al-Rashid">
+          <div><strong>Ahmed Al-Rashid</strong><span>Marketing Director — UAE</span></div>
+        </div>
+      </div>
+      <div class="test-card" data-a>
+        <div class="stars">★★★★★</div>
+        <p>"The blog content Fahim wrote ranks on page 1 for multiple competitive terms. His understanding of E-E-A-T and search intent is exceptional. Highly recommended for any business."</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=60&q=80" alt="Lucas Ferreira">
+          <div><strong>Lucas Ferreira</strong><span>Content Manager — Canada</span></div>
+        </div>
+      </div>
+      <div class="test-card" data-a data-d="1">
+        <div class="stars">★★★★★</div>
+        <p>"Outstanding professionalism. Fahim delivered a complete SEO strategy ahead of schedule and exceeded every expectation. Our store traffic doubled in just 60 days!"</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=60&q=80" alt="Priya Sharma">
+          <div><strong>Priya Sharma</strong><span>E-commerce Owner — India</span></div>
+        </div>
+      </div>
+      <div class="test-card" data-a data-d="2">
+        <div class="stars">★★★★★</div>
+        <p>"Fahim's technical SEO knowledge is world-class. He fixed our crawl budget issues and within 2 months, our indexed pages doubled. Revenue from organic search grew by 60%."</p>
+        <div class="test-author">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&q=80" alt="Marcus Brown">
+          <div><strong>Marcus Brown</strong><span>COO, DataFlow Inc — Australia</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Freelance platforms -->
+    <div style="text-align:center;margin-top:48px" data-a>
+      <p style="color:var(--t3);font-size:.82rem;margin-bottom:16px;text-transform:uppercase;letter-spacing:.1em">Also available on</p>
+      <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap">
+        <a href="https://www.fiverr.com/users/fahimislam4039/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:50px;background:var(--card);border:1px solid var(--bd);color:var(--t2);font-size:.83rem;font-weight:600;transition:all .25s" onmouseover="this.style.borderColor='var(--ac)';this.style.color='var(--ac)'" onmouseout="this.style.borderColor='var(--bd)';this.style.color='var(--t2)'"><i class="fas fa-star" style="color:#1dbf73"></i> Fiverr</a>
+        <a href="https://www.upwork.com/freelancers/~019b06335b61bf6f0c" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:50px;background:var(--card);border:1px solid var(--bd);color:var(--t2);font-size:.83rem;font-weight:600;transition:all .25s" onmouseover="this.style.borderColor='var(--ac)';this.style.color='var(--ac)'" onmouseout="this.style.borderColor='var(--bd)';this.style.color='var(--t2)'"><i class="fas fa-briefcase" style="color:#6fda44"></i> Upwork</a>
+        <a href="https://www.linkedin.com/in/fahim-islam-content-writer/" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:50px;background:var(--card);border:1px solid var(--bd);color:var(--t2);font-size:.83rem;font-weight:600;transition:all .25s" onmouseover="this.style.borderColor='var(--ac)';this.style.color='var(--ac)'" onmouseout="this.style.borderColor='var(--bd)';this.style.color='var(--t2)'"><i class="fab fa-linkedin" style="color:#0a66c2"></i> LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="sec sec-alt">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">Transparent Pricing</div>
+      <h2>Simple Plans, <span>Serious Results</span></h2>
+      <p>No hidden fees, no lock-in contracts. Choose the package that fits your growth goals and budget.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="plan" data-a>
+        <div class="plan-name">Starter</div>
+        <div class="plan-price"><span class="amount">$299</span><span class="period">/month</span></div>
+        <p class="plan-desc">Perfect for small businesses just starting their SEO journey.</p>
+        <div class="plan-features">
+          <div class="pf"><i class="fas fa-check"></i><span>Full SEO Audit</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Keyword Research (20 keywords)</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>On-Page SEO (5 pages)</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>2 SEO Blog Articles</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Monthly Progress Report</span></div>
+          <div class="pf no"><i class="fas fa-times"></i><span>Technical SEO Fixes</span></div>
+          <div class="pf no"><i class="fas fa-times"></i><span>Link Building</span></div>
+        </div>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+      <div class="plan popular" data-a data-d="1">
+        <div class="popular-badge">Most Popular</div>
+        <div class="plan-name">Professional</div>
+        <div class="plan-price"><span class="amount">$599</span><span class="period">/month</span></div>
+        <p class="plan-desc">For growing businesses serious about ranking and revenue.</p>
+        <div class="plan-features">
+          <div class="pf"><i class="fas fa-check"></i><span>Everything in Starter</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Keyword Research (50 keywords)</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>On-Page SEO (15 pages)</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>6 SEO Blog Articles</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Technical SEO Fixes</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>5 Quality Backlinks</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Weekly Rankings Report</span></div>
+        </div>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+      <div class="plan" data-a data-d="2">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-price"><span class="amount">$999</span><span class="period">/month</span></div>
+        <p class="plan-desc">Full-scale SEO domination for competitive industries and large sites.</p>
+        <div class="plan-features">
+          <div class="pf"><i class="fas fa-check"></i><span>Everything in Professional</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Unlimited Keyword Tracking</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Full Site On-Page Optimization</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>12 SEO Blog Articles</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>15 Authority Backlinks</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Dedicated SEO Strategist</span></div>
+          <div class="pf"><i class="fas fa-check"></i><span>Priority Response (2hr)</span></div>
+        </div>
+        <a href="#contact" class="plan-btn">Get Started</a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:28px;color:var(--t3);font-size:.83rem" data-a>
+      <i class="fas fa-info-circle"></i> Need a custom solution? <a href="#contact" style="color:var(--ac)">Let's talk</a> — I offer custom packages for unique needs.
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="sec">
+  <div class="wrap">
+    <div class="sh" data-a>
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked <span>Questions</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>How long before I see results from SEO?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">SEO is a long-term investment. Most clients start seeing measurable improvements in keyword rankings and traffic within 3–4 months. Significant traffic growth typically builds over 6–12 months as your authority compounds. Technical fixes and on-page changes can show faster results — sometimes in weeks.</div>
+      </div>
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Do you guarantee specific rankings?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">No ethical SEO professional can guarantee specific rankings since Google controls its own algorithm. What I do guarantee is consistent, measurable improvement in traffic, keyword positions, and conversions — backed by complete transparency in reporting and a proven track record with 80+ satisfied clients worldwide.</div>
+      </div>
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>What type of businesses do you work with?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">I work with businesses of all sizes — startups, small businesses, e-commerce stores, SaaS companies, local businesses, and enterprise clients. I've helped clients in the UK, USA, UAE, Canada, Australia, India, and more. If you have a website and want more organic traffic, I can help.</div>
+      </div>
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Will I receive reports on progress?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Absolutely. I provide detailed monthly (or weekly on Professional/Enterprise plans) reports covering keyword rankings, organic traffic, conversions, and all work completed. You'll always know exactly what's being done and what results it's generating — full transparency, no fluff.</div>
+      </div>
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Do you use white-hat SEO methods only?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">Yes, 100%. I only use white-hat, Google-compliant SEO techniques — no spammy link building, keyword stuffing, or black-hat shortcuts. I focus on building sustainable, long-term authority that won't get your site penalized. All my strategies align with Google's latest E-E-A-T guidelines.</div>
+      </div>
+      <div class="faq-item" data-a>
+        <button class="faq-q" onclick="toggleFaq(this)">
+          <span>Can I upgrade or cancel my plan?</span><span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">You can upgrade at any time as your business grows. Many clients start with the Starter plan and move to Professional once they see the initial results. There's no long-term lock-in contract — I earn your business every month through results and transparent communication.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section id="contact" class="final-cta">
+  <div class="eyebrow" style="margin-bottom:20px">Get Started</div>
+  <h2>Ready to Rank <span>#1 on Google</span><br>and Grow Your Business?</h2>
+  <p>Stop losing customers to competitors. Start building a strong organic presence today — your first consultation is completely free, no commitment required.</p>
+  <div class="cta-buttons">
+    <a href="https://www.facebook.com/fahim.islam4.07/" target="_blank" class="btn-primary" style="font-size:.95rem;padding:14px 30px">
+      <i class="fab fa-facebook-messenger"></i> Message on Facebook
+    </a>
+    <a href="https://www.linkedin.com/in/fahim-islam-content-writer/" target="_blank" class="btn-ghost" style="font-size:.95rem;padding:14px 30px">
+      <i class="fab fa-linkedin"></i> Connect on LinkedIn
+    </a>
+  </div>
+  <div class="cta-trust">
+    <div class="cta-trust-item"><i class="fas fa-check-circle"></i> No commitment required</div>
+    <div class="cta-trust-item"><i class="fas fa-check-circle"></i> Free SEO audit in 48 hours</div>
+    <div class="cta-trust-item"><i class="fas fa-check-circle"></i> 80+ satisfied clients worldwide</div>
+    <div class="cta-trust-item"><i class="fas fa-check-circle"></i> 4+ years of proven results</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Fahim<span>.</span></div>
+        <p>SEO Expert &amp; Content Writer helping businesses rank higher on Google and grow organically worldwide. Based in Khulna, Bangladesh.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/fahim.islam4.07/" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/in/fahim-islam-content-writer/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/FIslamislam0" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/fahimislam4039/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">SEO Audit</a></li>
+          <li><a href="#services">Keyword Research</a></li>
+          <li><a href="#services">On-Page SEO</a></li>
+          <li><a href="#services">Technical SEO</a></li>
+          <li><a href="#services">Content Writing</a></li>
+          <li><a href="#services">Blog Optimization</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#process">My Process</a></li>
+          <li><a href="#results">Case Studies</a></li>
+          <li><a href="#reviews">Client Reviews</a></li>
+          <li><a href="#pricing">Pricing Plans</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Hire Me On</h4>
+        <ul>
+          <li><a href="https://www.fiverr.com/users/fahimislam4039/" target="_blank">Fiverr</a></li>
+          <li><a href="https://www.upwork.com/freelancers/~019b06335b61bf6f0c" target="_blank">Upwork</a></li>
+          <li><a href="https://www.linkedin.com/in/fahim-islam-content-writer/" target="_blank">LinkedIn</a></li>
+        </ul>
+        <div style="margin-top:18px">
+          <h4>Location</h4>
+          <p style="color:var(--t3);font-size:.83rem;margin-top:8px"><i class="fas fa-map-marker-alt" style="color:var(--ac);margin-right:5px"></i>Khulna, Bangladesh</p>
+          <p style="color:var(--t3);font-size:.83rem;margin-top:6px"><i class="fas fa-clock" style="color:var(--ac);margin-right:5px"></i>Response within 24 hours</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <strong>Fahim Islam</strong>. All rights reserved.</p>
+      <p>Crafted with ❤️ for organic growth</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/8801685375652" target="_blank" class="wa-btn" aria-label="Chat on WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+// SCROLL PROGRESS
+const spb=document.getElementById('spb');
+window.addEventListener('scroll',()=>{
+  const p=(window.scrollY/(document.documentElement.scrollHeight-window.innerHeight))*100;
+  spb.style.width=p+'%';
+},{passive:true});
+
+// HAMBURGER
+function toggleMenu(){
+  document.getElementById('navLinks').classList.toggle('open');
+}
+document.querySelectorAll('#navLinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navLinks').classList.remove('open')));
+
+// FAQ
+function toggleFaq(btn){
+  const item=btn.closest('.faq-item');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(el=>el.classList.remove('open'));
+  if(!isOpen)item.classList.add('open');
+}
+
+// AOS
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}});
+},{threshold:.08,rootMargin:'0px 0px -50px 0px'});
+document.querySelectorAll('[data-a]').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
