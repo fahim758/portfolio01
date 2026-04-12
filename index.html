@@ -491,7 +491,7 @@ footer{background:var(--bg2);border-top:1px solid var(--bd);padding:60px 0 0}
     <div class="ring ring1"></div>
     <div class="ring ring2"></div>
     <div class="spinner" id="sp1"></div>
-    <div class="avatar"><div class="avatar-inner"><img src="../fahim-hero.jpg" /> </div></div>
+    <div class="avatar"><div class="avatar-inner"><img src="fahim-hero.jpg" /> </div></div>
     <div class="stat-badge badge-top-right">
       <div class="badge-icon blue">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#38b6ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -595,8 +595,8 @@ font-weight:600;
     </div>
     <div class="pg">
       <div class="pc" data-a>
-        <div class="pi"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="E-commerce SEO case study traffic growth"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
-        <div class="pinfo"><span class="ptag">E-Commerce SEO</span><h3>Fashion Store — 420% Traffic Growth</h3><p>Full SEO overhaul for a UK-based fashion retailer with technical fixes and content hubs.</p><div class="pr"><i class="fas fa-chart-line"></i> 3K → 15.6K organic visits/month</div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="Design Musketeer SEO performance case study dashboard"/><div class="po"><a href="https://designmusketeer.com/" class="plink" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pinfo"><span class="ptag">SEO Case Study</span><h3>Design Musketeer — SEO Performance Growth</h3><p>Google Search Console and Ahrefs data show strong visibility gains through focused on-page SEO and content optimization.</p><div class="pr"><i class="fas fa-chart-line"></i> 751 clicks • 155K impressions • Avg position 8.5</div></div>
       </div>
       <div class="pc" data-a data-d="1">
         <div class="pi"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="SaaS startup SEO strategy"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
@@ -887,7 +887,9 @@ cf.addEventListener('submit',async e=>{
 
 // SMOOTH SCROLL
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{
-  const t=document.querySelector(a.getAttribute('href'));
+  const href=a.getAttribute('href');
+  if(!href||href==='#')return;
+  const t=document.querySelector(href);
   if(!t)return;e.preventDefault();
   window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-76,behavior:'smooth'});
 }));
