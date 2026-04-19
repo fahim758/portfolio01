@@ -171,11 +171,11 @@ body.light .hcard{background:rgba(255,255,255,.92)}
 .pc{background:var(--card);border-radius:var(--r);border:1px solid var(--bd);overflow:hidden;transition:var(--tr)}
 .pc:hover{transform:translateY(-7px);box-shadow:var(--sg);border-color:var(--bda)}
 .pi{height:195px;overflow:hidden;position:relative}
-.pi img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.pi img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease;cursor:zoom-in}
 .pc:hover .pi img{transform:scale(1.07)}
 .po{position:absolute;inset:0;background:rgba(0,212,255,.12);display:flex;align-items:center;justify-content:center;opacity:0;transition:var(--tr)}
 .pc:hover .po{opacity:1}
-.plink{width:46px;height:46px;border-radius:50%;background:var(--ac);color:#000;display:flex;align-items:center;justify-content:center;transform:scale(.5);transition:transform .3s ease .1s}
+.plink{width:46px;height:46px;border-radius:50%;background:var(--ac);color:#000;display:flex;align-items:center;justify-content:center;transform:scale(.5);transition:transform .3s ease .1s;border:none;cursor:pointer;font-size:.9rem}
 .pc:hover .plink{transform:scale(1)}
 .pinfo{padding:22px}
 .ptag{display:inline-block;font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ac);margin-bottom:9px}
@@ -593,13 +593,14 @@ font-weight:600;
       <h2 class="st2">Featured <span class="ac">Projects</span></h2>
       <p class="ss">Real results for real businesses — a snapshot of what I've achieved for clients.</p>
     </div>
+    <div class="pg">
       <div class="pc" data-a>
         <div class="pi">
-          <img src="embroidery-digitizing-keyword.png" alt="E-commerce SEO case study traffic growth"/>
+          <img src="embroidery-digitizing-keyword.png" alt="E-commerce SEO case study traffic growth" class="lb-img" data-caption="Embroidery Digitizing Case Study – 44 Keywords Ranked & Traffic Growth"/>
           <div class="po">
-            <a href="embroidery-digitizing-keyword.png" target="_blank" class="plink">
-              <i class="fas fa-external-link-alt"></i>
-            </a>
+            <button class="plink lb-btn" data-img="embroidery-digitizing-keyword.png" data-caption="Embroidery Digitizing Case Study – 44 Keywords Ranked & Traffic Growth">
+              <i class="fas fa-search-plus"></i>
+            </button>
           </div>
         </div>
         <div class="pinfo">
@@ -612,28 +613,40 @@ font-weight:600;
         </div>
       </div>
       <div class="pc" data-a data-d="1">
-        <div class="pi"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="SaaS startup SEO strategy"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="SaaS startup SEO strategy" class="lb-img" data-caption="Tech Startup — Page 1 Rankings"/><div class="po"><button class="plink lb-btn" data-img="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=90" data-caption="Tech Startup — Page 1 Rankings"><i class="fas fa-search-plus"></i></button></div></div>
         <div class="pinfo"><span class="ptag">SaaS SEO</span><h3>Tech Startup — Page 1 Rankings</h3><p>Complete content strategy and technical SEO roadmap for a B2B SaaS company.</p><div class="pr"><i class="fas fa-chart-line"></i> 47 keywords on Page 1 in 90 days</div></div>
       </div>
       <div class="pc" data-a data-d="2">
-        <div class="pi"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80" alt="Local SEO for healthcare clinic"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80" alt="Local SEO for healthcare clinic" class="lb-img" data-caption="Healthcare Clinic — Local Domination"/><div class="po"><button class="plink lb-btn" data-img="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=90" data-caption="Healthcare Clinic — Local Domination"><i class="fas fa-search-plus"></i></button></div></div>
         <div class="pinfo"><span class="ptag">Local SEO</span><h3>Healthcare Clinic — Local Domination</h3><p>GMB optimization, citation building, and review management for a multi-location clinic.</p><div class="pr"><i class="fas fa-chart-line"></i> 280% increase in local visibility</div></div>
       </div>
       <div class="pc" data-a>
-        <div class="pi"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80" alt="Content writing project for lifestyle blog"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&q=80" alt="Content writing project for lifestyle blog" class="lb-img" data-caption="Lifestyle Blog — Authority Building"/><div class="po"><button class="plink lb-btn" data-img="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=90" data-caption="Lifestyle Blog — Authority Building"><i class="fas fa-search-plus"></i></button></div></div>
         <div class="pinfo"><span class="ptag">Content Strategy</span><h3>Lifestyle Blog — Authority Building</h3><p>60+ long-form SEO articles targeting high-intent keywords in wellness and fitness.</p><div class="pr"><i class="fas fa-chart-line"></i> Domain Authority: 12 → 38</div></div>
       </div>
       <div class="pc" data-a data-d="1">
-        <div class="pi"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80" alt="Blog optimization content refresh"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80" alt="Blog optimization content refresh" class="lb-img" data-caption="Travel Blog — Content Refresh"/><div class="po"><button class="plink lb-btn" data-img="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=90" data-caption="Travel Blog — Content Refresh"><i class="fas fa-search-plus"></i></button></div></div>
         <div class="pinfo"><span class="ptag">Blog Optimization</span><h3>Travel Blog — Content Refresh</h3><p>Refreshed 80+ outdated travel articles improving E-E-A-T and internal linking.</p><div class="pr"><i class="fas fa-chart-line"></i> 190% increase in impressions</div></div>
       </div>
       <div class="pc" data-a data-d="2">
-        <div class="pi"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Technical SEO audit enterprise website"/><div class="po"><a href="#" class="plink"><i class="fas fa-external-link-alt"></i></a></div></div>
+        <div class="pi"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Technical SEO audit enterprise website" class="lb-img" data-caption="Enterprise Site — Core Web Vitals Fix"/><div class="po"><button class="plink lb-btn" data-img="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=90" data-caption="Enterprise Site — Core Web Vitals Fix"><i class="fas fa-search-plus"></i></button></div></div>
         <div class="pinfo"><span class="ptag">Technical SEO</span><h3>Enterprise Site — Core Web Vitals Fix</h3><p>Resolved crawl errors, improved page speed, and added structured data for 10K pages.</p><div class="pr"><i class="fas fa-chart-line"></i> Performance score: 42 → 94</div></div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- LIGHTBOX MODAL -->
+<div id="lb-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.92);backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:20px;">
+  <button id="lb-close" style="position:absolute;top:20px;right:24px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;width:44px;height:44px;border-radius:50%;font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;">✕</button>
+  <button id="lb-prev" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);background:rgba(0,212,255,0.15);border:1px solid rgba(0,212,255,0.3);color:#00d4ff;width:48px;height:48px;border-radius:50%;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;">‹</button>
+  <button id="lb-next" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);background:rgba(0,212,255,0.15);border:1px solid rgba(0,212,255,0.3);color:#00d4ff;width:48px;height:48px;border-radius:50%;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;">›</button>
+  <div style="max-width:900px;width:100%;text-align:center;">
+    <img id="lb-img" src="" alt="" style="max-width:100%;max-height:80vh;border-radius:12px;border:1px solid rgba(0,212,255,0.2);box-shadow:0 0 60px rgba(0,212,255,0.15);object-fit:contain;"/>
+    <p id="lb-caption" style="color:#94a3b8;margin-top:14px;font-size:.9rem;letter-spacing:.02em;"></p>
+    <p id="lb-counter" style="color:#64748b;margin-top:6px;font-size:.78rem;"></p>
+  </div>
+</div>
 
 <!-- TESTIMONIALS -->
 <section id="testimonials" class="sec">
@@ -897,6 +910,77 @@ cf.addEventListener('submit',async e=>{
   cf.reset();fok.classList.add('show');
   setTimeout(()=>fok.classList.remove('show'),6000);
 });
+
+// LIGHTBOX
+(function(){
+  const overlay = document.getElementById('lb-overlay');
+  const lbImg = document.getElementById('lb-img');
+  const lbCaption = document.getElementById('lb-caption');
+  const lbCounter = document.getElementById('lb-counter');
+  const lbClose = document.getElementById('lb-close');
+  const lbPrev = document.getElementById('lb-prev');
+  const lbNext = document.getElementById('lb-next');
+
+  let images = [];
+  let current = 0;
+
+  function collectImages(){
+    images = [];
+    document.querySelectorAll('.lb-btn').forEach(btn => {
+      images.push({ src: btn.dataset.img, caption: btn.dataset.caption });
+    });
+  }
+
+  function openLightbox(index){
+    collectImages();
+    current = index;
+    showImage();
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function showImage(){
+    lbImg.style.opacity = '0';
+    lbImg.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      lbImg.src = images[current].src;
+      lbCaption.textContent = images[current].caption;
+      lbCounter.textContent = (current + 1) + ' / ' + images.length;
+      lbImg.style.transition = 'opacity .3s ease, transform .3s ease';
+      lbImg.style.opacity = '1';
+      lbImg.style.transform = 'scale(1)';
+    }, 150);
+    lbPrev.style.display = images.length > 1 ? 'flex' : 'none';
+    lbNext.style.display = images.length > 1 ? 'flex' : 'none';
+  }
+
+  function closeLightbox(){
+    overlay.style.display = 'none';
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.lb-btn').forEach((btn, i) => {
+    btn.addEventListener('click', () => openLightbox(i));
+  });
+
+  document.querySelectorAll('.lb-img').forEach((img, i) => {
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => openLightbox(i));
+  });
+
+  lbClose.addEventListener('click', closeLightbox);
+  overlay.addEventListener('click', e => { if(e.target === overlay) closeLightbox(); });
+
+  lbPrev.addEventListener('click', () => { current = (current - 1 + images.length) % images.length; showImage(); });
+  lbNext.addEventListener('click', () => { current = (current + 1) % images.length; showImage(); });
+
+  document.addEventListener('keydown', e => {
+    if(overlay.style.display === 'none') return;
+    if(e.key === 'Escape') closeLightbox();
+    if(e.key === 'ArrowLeft') { current = (current - 1 + images.length) % images.length; showImage(); }
+    if(e.key === 'ArrowRight') { current = (current + 1) % images.length; showImage(); }
+  });
+})();
 
 // SMOOTH SCROLL
 document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{
