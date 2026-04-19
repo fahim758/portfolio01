@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta name="description" content="The Ultimate Keyword Research Framework — Find high-intent keywords your customers are searching for and stop wasting time on low-value traffic."/>
+<title>The Ultimate Keyword Research Framework | Fahim Islam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+:root{
+  --bg:#080c14;--bg2:#0d1321;--card:#111827;--card2:#161f30;
+  --ac:#00d4ff;--ac2:#0ea5e9;--glow:rgba(0,212,255,.13);--glow2:rgba(0,212,255,.28);
+  --t1:#f1f5f9;--t2:#94a3b8;--t3:#64748b;
+  --bd:rgba(255,255,255,.07);--bda:rgba(0,212,255,.2);
+  --sh:0 4px 24px rgba(0,0,0,.4);--sg:0 0 40px rgba(0,212,255,.12);
+  --r:16px;--r2:8px;--ff:'Syne',sans-serif;--fb:'DM Sans',sans-serif;
+  --nh:70px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--fb);background:var(--bg);color:var(--t1);line-height:1.8;overflow-x:hidden;font-size:1.05rem}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nh);background:rgba(8,12,20,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--bd);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.nc{max-width:1200px;margin:0 auto;padding:0 24px;height:100%;display:flex;align-items:center;gap:24px}
+.nav-logo{display:flex;align-items:center;gap:12px;margin-right:auto;text-decoration:none}
+.logo-icon-box{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,#00d4ff 0%,#007cf0 100%);display:flex;align-items:center;justify-content:center;box-shadow:0 0 16px rgba(0,212,255,.4);flex-shrink:0}
+.logo-icon-box span{font-family:var(--ff);font-size:.88rem;font-weight:800;color:#000}
+.logo-text-group{display:flex;flex-direction:column;gap:1px}
+.logo-name{font-family:var(--ff);font-size:1.1rem;font-weight:800;color:var(--t1);letter-spacing:.1em}
+.logo-role{font-size:.6rem;font-weight:500;color:var(--t3);letter-spacing:.2em;text-transform:uppercase}
+.nav-back{display:inline-flex;align-items:center;gap:7px;padding:8px 18px;border-radius:50px;border:1px solid var(--bda);color:var(--t2);font-size:.84rem;font-weight:500;background:var(--glow);transition:all .3s}
+.nav-back:hover{color:var(--ac);border-color:var(--ac)}
+.blog-hero{padding:calc(var(--nh) + 60px) 0 60px;background:var(--bg);position:relative;overflow:hidden}
+.blog-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(var(--bd) 1px,transparent 1px),linear-gradient(90deg,var(--bd) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 70% at 50% 40%,black 20%,transparent 80%)}
+.orb-hero{position:absolute;width:500px;height:500px;background:radial-gradient(circle,rgba(0,212,255,.07) 0%,transparent 70%);top:-100px;right:-100px;border-radius:50%;filter:blur(60px);pointer-events:none}
+.hero-inner{max-width:820px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+.blog-cat{display:inline-flex;align-items:center;gap:7px;padding:5px 14px;border-radius:50px;background:var(--glow);border:1px solid var(--bda);font-size:.73rem;font-weight:600;color:var(--ac);text-transform:uppercase;letter-spacing:.1em;margin-bottom:20px}
+.blog-title{font-family:var(--ff);font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;line-height:1.35;letter-spacing:-.5px;margin-bottom:24px}
+.blog-meta{display:flex;align-items:center;gap:24px;flex-wrap:wrap;color:var(--t3);font-size:.88rem;margin-bottom:44px}
+.blog-meta span{display:flex;align-items:center;gap:6px}
+.blog-meta i{color:var(--ac);font-size:.75rem}
+.blog-cover{width:100%;max-height:420px;object-fit:cover;border-radius:var(--r);border:1px solid var(--bda);box-shadow:var(--sg)}
+.blog-body{max-width:760px;margin:0 auto;padding:64px 28px 100px}
+.blog-content h2{font-family:var(--ff);font-size:1.35rem;font-weight:800;margin:52px 0 20px;color:var(--t1);line-height:1.4;letter-spacing:0px;position:relative;padding-left:16px}
+.blog-content h2::before{content:'';position:absolute;left:0;top:4px;bottom:4px;width:3px;background:linear-gradient(to bottom,var(--ac),var(--ac2));border-radius:4px}
+.blog-content h3{font-family:var(--ff);font-size:1.08rem;font-weight:700;margin:34px 0 14px;color:var(--t1);line-height:1.5}
+.blog-content p{color:var(--t2);font-size:1.05rem;line-height:2;margin-bottom:26px}
+.blog-content p strong{color:var(--t1)}
+.blog-content ul,.blog-content ol{padding-left:28px;margin-bottom:26px;display:flex;flex-direction:column;gap:14px}
+.blog-content li{color:var(--t2);font-size:1.05rem;line-height:1.9}
+.blog-content li::marker{color:var(--ac)}
+.blog-content a{color:var(--ac);border-bottom:1px solid rgba(0,212,255,.3);transition:border-color .2s}
+.blog-content a:hover{border-color:var(--ac)}
+.callout{background:linear-gradient(135deg,rgba(0,212,255,.06),rgba(14,165,233,.04));border:1px solid var(--bda);border-left:3px solid var(--ac);border-radius:var(--r2);padding:20px 24px;margin:28px 0}
+.callout p{margin:0;color:var(--t1);font-size:.93rem}
+.callout strong{color:var(--ac)}
+.tip-box{background:var(--card);border:1px solid var(--bd);border-radius:var(--r);padding:24px 28px;margin:28px 0}
+.tip-box .tip-label{display:inline-flex;align-items:center;gap:7px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--ac);margin-bottom:12px}
+.tip-box p{margin:0;color:var(--t2);font-size:.9rem}
+.toc{background:var(--card);border:1px solid var(--bda);border-radius:var(--r);padding:28px 32px;margin-bottom:44px}
+.toc h4{font-family:var(--ff);font-size:.97rem;font-weight:700;margin-bottom:16px;color:var(--t1);display:flex;align-items:center;gap:8px}
+.toc h4 i{color:var(--ac);font-size:.83rem}
+.toc ol{padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.toc li a{color:var(--t2);font-size:.88rem;transition:color .2s}
+.toc li a:hover{color:var(--ac)}
+.author-box{display:flex;align-items:center;gap:22px;background:var(--card);border:1px solid var(--bda);border-radius:var(--r);padding:28px 32px;margin-top:56px}
+.author-img{width:72px;height:72px;border-radius:50%;border:2px solid var(--bda);object-fit:cover;flex-shrink:0}
+.author-name{font-family:var(--ff);font-size:1rem;font-weight:700;margin-bottom:4px}
+.author-role{font-size:.78rem;color:var(--ac);margin-bottom:8px}
+.author-bio{font-size:.85rem;color:var(--t2)}
+.blog-cta{background:linear-gradient(135deg,rgba(0,212,255,.08),rgba(14,165,233,.05));border:1px solid var(--bda);border-radius:var(--r);padding:40px;text-align:center;margin-top:44px}
+.blog-cta h3{font-family:var(--ff);font-size:1.3rem;font-weight:800;margin-bottom:10px}
+.blog-cta p{color:var(--t2);margin-bottom:24px;font-size:.93rem}
+.btn-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:50px;background:var(--ac);color:#000;font-weight:700;font-size:.9rem;transition:all .3s}
+.btn-cta:hover{transform:translateY(-2px);box-shadow:0 8px 24px var(--glow2)}
+.related{margin-top:56px}
+.related h3{font-family:var(--ff);font-size:1.1rem;font-weight:700;margin-bottom:22px;padding-bottom:12px;border-bottom:1px solid var(--bd)}
+.related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.rel-card{background:var(--card);border:1px solid var(--bd);border-radius:var(--r2);padding:18px 20px;transition:all .3s}
+.rel-card:hover{border-color:var(--bda);transform:translateY(-3px)}
+.rel-tag{font-size:.68rem;font-weight:600;color:var(--ac);text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px}
+.rel-card h4{font-family:var(--ff);font-size:.88rem;font-weight:700;color:var(--t1);line-height:1.4}
+@media(max-width:600px){.related-grid{grid-template-columns:1fr}.author-box{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nc">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-icon-box"><span>FI</span></div>
+      <div class="logo-text-group">
+        <span class="logo-name">FAHIM</span>
+        <span class="logo-role">SEO EXPERT</span>
+      </div>
+    </a>
+    <a href="index.html#blog" class="nav-back"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+  </div>
+</nav>
+
+<section class="blog-hero">
+  <div class="orb-hero"></div>
+  <div class="hero-inner">
+    <div class="blog-cat"><i class="fas fa-key"></i> Keyword Research</div>
+    <h1 class="blog-title">The Ultimate Keyword Research Framework for High-Intent Traffic</h1>
+    <div class="blog-meta">
+      <span><i class="fas fa-calendar-alt"></i> Feb 24, 2026</span>
+      <span><i class="fas fa-clock"></i> 6 min read</span>
+      <span><i class="fas fa-user"></i> Fahim Islam</span>
+    </div>
+    <img class="blog-cover" src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=1200&q=85" alt="Keyword Research Framework"/>
+  </div>
+</section>
+
+<div class="blog-body">
+  <div class="toc">
+    <h4><i class="fas fa-list"></i> Table of Contents</h4>
+    <ol>
+      <li><a href="#problem">The Volume Trap: Why Most SEO Fails</a></li>
+      <li><a href="#intent">Understanding Search Intent</a></li>
+      <li><a href="#framework">The 4-Step Research Framework</a></li>
+      <li><a href="#tools">Best Tools for 2026</a></li>
+      <li><a href="#mapping">Keyword Mapping & Prioritization</a></li>
+      <li><a href="#mistakes">Common Mistakes to Avoid</a></li>
+    </ol>
+  </div>
+
+  <div class="blog-content">
+
+    <h2 id="problem">The Volume Trap: Why Most SEO Fails</h2>
+    <p>Most businesses chase high-volume keywords and wonder why they never convert. <strong>Volume is vanity. Intent is sanity.</strong> A keyword with 100 monthly searches from buyers ready to purchase is worth 100x more than a keyword with 10,000 searches from casual browsers.</p>
+    <p>The businesses that dominate organic search in 2026 are the ones who stopped asking "what do people search for?" and started asking <strong>"what do my customers search for right before they buy?"</strong></p>
+
+    <div class="callout">
+      <p><strong>Mindset shift:</strong> Stop optimizing for traffic. Start optimizing for the right traffic. One qualified visitor is worth more than a hundred unqualified ones.</p>
+    </div>
+
+    <h2 id="intent">Understanding Search Intent</h2>
+    <p>Every search query has an intent behind it. Google categorizes intent into four types, and matching your content to the right intent is the single most important keyword factor:</p>
+    <ul>
+      <li><strong>Informational</strong> — "how does X work" / "what is X" → Blog posts, guides</li>
+      <li><strong>Navigational</strong> — "X brand login" / "X website" → Homepage, brand pages</li>
+      <li><strong>Commercial</strong> — "best X for Y" / "X vs Y" → Comparison, review content</li>
+      <li><strong>Transactional</strong> — "buy X" / "X price" / "hire X" → Product, service, landing pages</li>
+    </ul>
+    <p>The highest-value keywords for most businesses are <strong>commercial and transactional</strong> — these users have their wallets open. Informational keywords build authority and capture users earlier in the journey.</p>
+
+    <h2 id="framework">The 4-Step Research Framework</h2>
+
+    <h3>Step 1: Seed Keywords from Your Business</h3>
+    <p>Start with what your business does. List every service, product, pain point you solve, and result you deliver. These are your seed keywords. Don't filter yet — just generate a large raw list.</p>
+
+    <h3>Step 2: Competitor Gap Analysis</h3>
+    <p>Find keywords your competitors rank for that you don't. These are proven opportunities — someone is already getting traffic for them. Use Ahrefs or SEMrush to run a content gap analysis against your top 3–5 competitors.</p>
+
+    <h3>Step 3: Long-Tail Expansion</h3>
+    <p>For each seed keyword, find the long-tail variations. These are longer, more specific phrases with lower volume but <strong>much higher conversion rates</strong>. A user searching "SEO agency for SaaS companies in London" is far more valuable than one searching "SEO."</p>
+
+    <div class="tip-box">
+      <div class="tip-label"><i class="fas fa-lightbulb"></i> Pro Tip</div>
+      <p>Use Google's "People Also Ask" and autocomplete suggestions to find real questions your audience is asking. These make perfect H2s and FAQ sections in your content.</p>
+    </div>
+
+    <h3>Step 4: Difficulty vs. Opportunity Scoring</h3>
+    <p>Score every keyword on two axes: keyword difficulty (how hard to rank) and business value (how much a ranking would impact revenue). Prioritize keywords that are low-to-medium difficulty with high business value — these are your quick wins.</p>
+
+    <h2 id="tools">Best Tools for 2026</h2>
+    <ul>
+      <li><strong>Ahrefs</strong> — Best overall for keyword research and competitor analysis</li>
+      <li><strong>SEMrush</strong> — Great for keyword gap analysis and tracking</li>
+      <li><strong>Google Search Console</strong> — Free, shows what you already rank for</li>
+      <li><strong>Surfer SEO</strong> — Best for analyzing what top-ranking pages cover</li>
+      <li><strong>AlsoAsked / AnswerThePublic</strong> — Find question-based keywords fast</li>
+    </ul>
+
+    <h2 id="mapping">Keyword Mapping & Prioritization</h2>
+    <p>Once you have your keyword list, map each keyword to a specific page on your site. <strong>One page should target one primary keyword</strong> (and related secondary keywords). Never cannibalize — having two pages competing for the same keyword hurts both.</p>
+    <p>Build your content calendar around keyword priority: transactional and high-value commercial keywords first, then informational content to build authority over time.</p>
+
+    <h2 id="mistakes">Common Mistakes to Avoid</h2>
+    <ul>
+      <li>Targeting keywords that are too broad and competitive for your domain authority</li>
+      <li>Ignoring local modifiers if you serve a specific geography</li>
+      <li>Forgetting to re-evaluate your keyword strategy every 6 months</li>
+      <li>Creating content for keywords without checking what the top results actually look like</li>
+      <li>Ignoring branded keywords — they have the highest conversion rate</li>
+    </ul>
+
+  </div>
+
+  <div class="author-box">
+    <img class="author-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80" alt="Fahim Islam"/>
+    <div>
+      <div class="author-name">Fahim Islam</div>
+      <div class="author-role">SEO Expert & Content Writer</div>
+      <div class="author-bio">Helping businesses rank higher on Google and grow organic traffic. 5+ years of hands-on SEO experience across e-commerce, SaaS, and local businesses.</div>
+    </div>
+  </div>
+
+  <div class="blog-cta">
+    <h3>Want Me to Find Your Best Keyword Opportunities?</h3>
+    <p>I'll run a complete keyword research audit and deliver a prioritized list of opportunities your competitors are missing.</p>
+    <a href="index.html#contact" class="btn-cta">Let's Talk <i class="fas fa-arrow-right"></i></a>
+  </div>
+
+  <div class="related">
+    <h3>Related Articles</h3>
+    <div class="related-grid">
+      <a href="blog-1.html" class="rel-card">
+        <div class="rel-tag">SEO Strategy</div>
+        <h4>How to Rank on Google's First Page in 2026: A Complete Guide</h4>
+      </a>
+      <a href="blog-3.html" class="rel-card">
+        <div class="rel-tag">Content Writing</div>
+        <h4>How to Write SEO Content That Ranks AND Converts in 2026</h4>
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
